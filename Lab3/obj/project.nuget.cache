@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ACASlv4ZpjAAbFD2O9r+pRTT9TBbO8z/HFBrPaOhDdNKq31Yc3jRmYLOPi67n2+SVLAjfocYBneU3eeQ6Jl/fA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josh\\source\\repos\\Lab3\\Lab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Josh\\.nuget\\packages\\starkbank-ecdsa\\1.3.0\\starkbank-ecdsa.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

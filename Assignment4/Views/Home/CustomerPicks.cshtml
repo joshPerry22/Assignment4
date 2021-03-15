@@ -19,8 +19,8 @@
     <label asp-for="Dish">Favorite Dish:</label>
     <input asp-for="Dish" /><br /><br />
 
-    <label asp-for="Phone">Restaurant Phone #:</label>
-    <input asp-for="Phone" type="tel" maxlength="13"  /><br /><br />
+    <label asp-for="Phone">Restaurant Phone # (No area code and dash after first three numbers):</label>
+    <input asp-for="Phone" type="tel" pattern="^[0-9]{3}([- /]?[0-9]{4}?$)"  /><br /><br />
 
     <button type="submit">Submit</button>
 </form>

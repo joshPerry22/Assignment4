@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerkleRoot", "MerkleRoot.csproj", "{8DAA84E4-2BDA-4EB1-8044-BE2E8E0EEB2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DAA84E4-2BDA-4EB1-8044-BE2E8E0EEB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAA84E4-2BDA-4EB1-8044-BE2E8E0EEB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAA84E4-2BDA-4EB1-8044-BE2E8E0EEB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAA84E4-2BDA-4EB1-8044-BE2E8E0EEB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DE731B8-2C98-4AAA-B550-F3BF3E798208}
+	EndGlobalSection
+EndGlobal

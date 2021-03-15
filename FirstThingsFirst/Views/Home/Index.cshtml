@@ -1,0 +1,48 @@
+﻿
+
+@model QuadrantsViewModel
+
+<h2>TO DO</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 border border-dark">
+            <h3>Urgent / Important</h3>
+            <ul>
+                @foreach (var x in Model.Quadrant1)
+                {
+                    <li>@x.TaskDescription</li>
+                }
+            </ul>
+        </div>
+        <div class="col-6 border border-dark">
+            <h3>Important but not Urgent</h3>
+            <ul>
+                @foreach (var x in Model.Quadrant2)
+                {
+                <li>@x.TaskDescription</li>
+                }
+            </ul>
+        </div>
+        <div class="col-6 border border-dark">
+            <h3>Urgent but not Important</h3>
+            <ul>
+                @foreach (var x in Model.Quadrant3)
+                {
+                <li>@x.TaskDescription</li>
+                }
+            </ul>
+        </div>
+        <div class="col-6 border border-dark">
+            <h3> Not Urgent and Not Important</h3>
+            <ul>
+                @foreach (var x in Model.Quadrant4)
+                {
+                <li>@x.TaskDescription</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<a asp-action="EnterTask">Enter Task</a>

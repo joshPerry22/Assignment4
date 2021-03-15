@@ -1,0 +1,13 @@
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.exe
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.deps.json
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.runtimeconfig.json
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.runtimeconfig.dev.json
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.dll
+C:\Users\Josh\source\repos\MerkleRoot\bin\Debug\netcoreapp3.1\MerkleRoot.pdb
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.csprojAssemblyReference.cache
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.AssemblyInfoInputs.cache
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.AssemblyInfo.cs
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.csproj.CoreCompileInputs.cache
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.dll
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.pdb
+C:\Users\Josh\source\repos\MerkleRoot\obj\Debug\netcoreapp3.1\MerkleRoot.genruntimeconfig.cache

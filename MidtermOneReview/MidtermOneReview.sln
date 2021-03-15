@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidtermOneReview", "MidtermOneReview.csproj", "{FF6C7975-2AF8-4DD2-94C4-D97A356862F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF6C7975-2AF8-4DD2-94C4-D97A356862F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6C7975-2AF8-4DD2-94C4-D97A356862F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6C7975-2AF8-4DD2-94C4-D97A356862F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6C7975-2AF8-4DD2-94C4-D97A356862F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA61556F-DF4E-4FEF-9ACE-24DE8AE62BE5}
+	EndGlobalSection
+EndGlobal

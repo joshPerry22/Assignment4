@@ -13,7 +13,8 @@ namespace Assignment4.Models
         public string Name { get; set; }
 
         public string? Dish { get; set; } 
-        [DataType(DataType.PhoneNumber)]
+        //[DataType(DataType.PhoneNumber)]
+        [RegularExpression("^[0-9]{3}([- /]?[0-9]{4}?$)")]
         public string Phone { get; set; }
     }
 }

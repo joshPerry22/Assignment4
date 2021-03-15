@@ -28,8 +28,8 @@ namespace Assignment4.Controllers
             {
                 string? dish = r.Dish ?? "It's all tasty";
                 string? link = r.Link ?? "Coming soon";
-                //restList.Add(string.Format("#{0}  {1}  {2}  {3}  {4}  {5}  ", r.Rank, r.Name, dish, r.Address, r.Phone, link));
-                restList.Add(r.Rank + " " + r.Name + "\n" + dish + "\n" + r.Address + "\n" + r.Phone + "\n" + link + "\n");
+                restList.Add(string.Format("#{0}  {1}  {2},  {3}  {4} VIN: {5}  ", r.Rank, r.Name, dish, r.Address, r.Phone, link));
+                //restList.Add(r.Rank + " " + r.Name + "<br>" + dish + "<br>" + r.Address + "<br>" + r.Phone + "<br>" + link + "<br>" + "<br>");
             }
             return View(restList); 
         }
