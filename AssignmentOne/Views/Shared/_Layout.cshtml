@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="~/css/myself.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/bikeIcon.jpg" />
+    <title>A Little About Me</title>
+</head>
+<body>
+    <header>
+        <h1 class="headerColor">@ViewBag.Name</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Home" asp-action="GradeCalc">Grade Calculator</a></li>
+            </ul>
+        </menu>
+    </header>
+    
+    @RenderBody()
+
+   
+    <!--Standard layout for each page-->
+    
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/grades.js"></script>
+</body>
+</html>

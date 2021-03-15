@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Application Received. Thank You, Jerusha. Just kidding I know yo name is " + Model.name + ".";
+}
+
+@model DateMe.Models.ApplicationResponse
+
+<div>
+    <h3>Your application will be processed in the order that it was received.</h3>
+
+    @if (Model.freak == true)
+    {
+        @:Actually I forgot you were a freak. But I have a friend who is also a straight freak
+    }
+
+    else
+    {
+        @:Great! Current wait time is this evening. Say 6?
+    }
+</div>
+<div>
+    Click <a asp-action="WaitList">Click here to see the wait list.</a>
+</div>

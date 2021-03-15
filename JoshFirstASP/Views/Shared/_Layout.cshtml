@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/main.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header><h1>@ViewBag.Title</h1>
+            <menu>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="FanMail">Fan Mail</a></li>
+                </ul>
+            </menu>
+    </header>
+    @RenderBody()
+    <footer>Love students</footer>
+    
+    <!--<img src="img/add comment (1).png" />-->
+    
+    
+   
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/fanmail.js"></script>
+</body>
+</html>

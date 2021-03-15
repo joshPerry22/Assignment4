@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UAMBgPYSyUq/ezWJEdxDjDsfeEpFWhEtleH1xauQ2xCqFRY0OTmGIGYiilPZusFntOeR1tpMX2s5hkfHA8CcHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josh\\source\\repos\\JoshFirstASP\\JoshFirstASP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josh\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

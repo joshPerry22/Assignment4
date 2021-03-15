@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Your Favorite Restaurants";
+}
+
+@model Assignment4.Models.CustRest
+
+    <h2 class="bg-success">Make Your Picks</h2><br />
+
+<form  asp-action="CustomerPicks" method="post">
+    <label asp-for="CustName">Name:</label>
+    <input asp-for="CustName" /><br /><br />
+
+    <label asp-for="Name"> Restaurant Name:</label>
+    <input asp-for="Name" /><br /><br />
+
+    <label asp-for="Dish">Favorite Dish:</label>
+    <input asp-for="Dish" /><br /><br />
+
+    <label asp-for="Phone">Restaurant Phone #:</label>
+    <input asp-for="Phone" type="tel" maxlength="13"  /><br /><br />
+
+    <button type="submit">Submit</button>
+</form>

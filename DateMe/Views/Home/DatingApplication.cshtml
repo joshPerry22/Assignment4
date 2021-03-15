@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Josh Perry Dating Application";
+}
+
+@model DateMe.Models.ApplicationResponse
+
+<form asp-action="DatingApplication" method="post">
+    <div>
+        <label asp-for="name">Name:</label>
+        <input asp-for="name" />
+    </div>
+    <div>
+        <label asp-for="age">Age:</label>
+        <input asp-for="age" />
+    </div>
+    <div>
+        <label asp-for="phone">Phone Number:</label>
+        <input asp-for="phone" />
+    </div>
+    <div>
+        <label asp-for="major">Major:</label>
+        <input asp-for="major" />
+    </div>
+    <div>
+        <label asp-for="job">Occupation:</label>
+        <input asp-for="job" />
+    </div>
+    <div>
+        <label asp-for="freak">Are you a certified freak?</label>
+        <select asp-for="freak">
+            <option value="" >Select One</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+    <button type="submit">Submit Your Application</button>
+</form>

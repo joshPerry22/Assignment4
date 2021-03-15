@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "My Top 5 Restaurants";
+}
+
+<div>
+    <h2 class="bg-success">This Site has the top restaurants in Provo, Utah</h2>
+
+    <img src="~/img/Cafe-Rio-Mexican-Grill.png" width="300" />
+
+    <div > <!--Listing out from Rest.cs-->
+        <ul>
+            @foreach (string r in Model)
+            {
+                <li >@r</li>
+            }
+        </ul>
+    </div>
+
+    <a class="btn btn-primary" asp-action="CustomerPicks">Make Your own Suggestions</a>
+</div>

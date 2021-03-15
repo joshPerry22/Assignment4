@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Band List";
+}
+
+@model IEnumerable<string>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top 100 Bands</title>
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+ <header>
+    <h3 class="bg-primary text-white text-center">These are the greatest bands of all time</h3>
+ </header>
+ <div class="list-group">
+     <ul>
+         @foreach (string b in Model)
+         {
+             <li class="list-group-item">@b</li>
+         }
+     </ul>
+ </div>
+       
+  
+
+    
+</body>
+</html>

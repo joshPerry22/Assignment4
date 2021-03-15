@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <a asp-action="Index">Home</a> |
+    <a asp-action="CustomerPicks">Make Own Picks</a> |
+    <a asp-action="CustList">View Your Picks</a>
+    
+   
+ @RenderBody()
+        
+</body>
+</html>

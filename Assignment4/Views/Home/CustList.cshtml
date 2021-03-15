@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Your Top Picks";
+}
+
+@model IEnumerable<Assignment4.Models.CustRest>
+
+<div>
+    <h2 class="bg-success">Your Top Picks</h2><br />
+
+    <table class="table-bordered">
+        <thead>
+            <tr><th>Name</th><th>Restaurant Name</th><th>Favorite Dish</th><th>Restaurant Phone #</th></tr> <!--Listing out the parts of the model with foreach statement-->
+        </thead>
+        <tbody>
+            @foreach (Assignment4.Models.CustRest r in Model)
+            {
+                @if (r.Dish is null)
+                {
+                    r.Dish = "Everything is tasty";
+                }
+
+                <tr>
+                    <td>@r.CustName</td>
+                    <td>@r.Name</td>
+                    <td>@r.Dish</td>
+                    <td>@r.Phone</td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+</div>

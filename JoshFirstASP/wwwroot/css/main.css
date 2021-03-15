@@ -1,0 +1,15 @@
+﻿body {
+    font-family:"Gill Sans";
+    color:black
+}
+
+label{
+    color: dodgerblue;
+    font-size:20px;
+    width: 100px;
+    display: inline-block;
+}
+
+.quizProps {
+    list-style-type: none;
+}
