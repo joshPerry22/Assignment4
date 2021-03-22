@@ -26,8 +26,15 @@ using Assignment3.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Josh\source\repos\Assignment3\Views\_ViewImports.cshtml"
+using Assignment3.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77054338806ff27857493a9e057d2a5ce17d6c34", @"/Views/Home/MyPodcasts.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"18dc5cc3ff149281ec2a403af9b6f16f4618d252", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cae4034edd6e9a38bbd639c724dfe172f23969ce", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_MyPodcasts : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

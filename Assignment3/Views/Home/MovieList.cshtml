@@ -5,8 +5,7 @@
     ViewBag.Title = "Movie List";
 }
 
-@model IEnumerable<Assignment3.Models.FormResponse>
-
+@model MovieViewModel
     
 
     <h2>Movie List</h2>
@@ -16,7 +15,7 @@
                 <tr><th>Category </th><th> Title </th><th> Year </th><th> Director </th><th> Rating</th><th> Edited </th><th> Lent to </th><th> Notes </th></tr>
             </thead>
             <tbody>
-                @foreach (Assignment3.Models.FormResponse x in Model)
+                @foreach (var x in Model.movie)
 
                 {
                     @if (x.Title.ToLower() != "independence day")  

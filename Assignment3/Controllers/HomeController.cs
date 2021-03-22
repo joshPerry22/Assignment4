@@ -6,16 +6,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Assignment3.Models.ViewModels;
 
 namespace Assignment3.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private MovieContext context { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(/*MovieContext movie*/)
         {
-            _logger = logger;
+            //context = movie;
         }
 
         public IActionResult Index()
@@ -25,7 +26,7 @@ namespace Assignment3.Controllers
 
         public IActionResult MovieList()
         {
-            return View(TempStorage.Applications); //return what is being stored
+            return View(/*TempStorage.Applications*/); //return what is being stored
         }
 
         public IActionResult MyPodcasts()
@@ -43,12 +44,16 @@ namespace Assignment3.Controllers
         [HttpPost]
         public IActionResult MovieForm(FormResponse Fresponse)
         {
-           // if (ModelState.IsValid)
-            //{
-            //    Response.Redirect("Home/MovieForm");
-           // }
-            TempStorage.AddApplication(Fresponse); //add info to storage than pop up Confirmation page
-            return View("Confirmation", Fresponse);
+            if (ModelState.IsValid)
+            {
+                //context.Movie.Add(Fresponse);
+                //context.SaveChanges();
+            }
+
+            return View("MovieList", new MovieViewModel
+            {
+                //movie = context.Movie.Where(x => x.Title != null)
+            });
         }
 
         public IActionResult Privacy()
